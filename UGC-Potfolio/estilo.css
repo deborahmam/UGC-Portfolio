@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'Lovelace Text';
+  src: url('assets/fonts/LovelaceText-Regular.woff2') format('woff2'),
+       url('assets/fonts/LovelaceText-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lovelace Text';
+  src: url('assets/fonts/LovelaceText-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+    background-color:#EFE9E4;
+    font-family: 'Lovelace Text', sans-serif;
+}
+
+.primeiro{
+    color:#f1ba4f;
+    font-weight: lighter;
+    font-size: 111px;
+}
+
+.segundo{
+    font-color: #000000;
+    font-weight: lighter;
+    font-size: 111px;
+}
+
+.subtitle{
+    font-color: ##AF8E72;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.contato{
+    color: #B35D24;
+    font-weight: lighter, bolder;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
