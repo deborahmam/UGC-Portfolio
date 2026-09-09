@@ -8,86 +8,147 @@
 </head>
 <body>
     <header>
-        <a class="link-header"> Propósitos </a>
-        <a class="link-header"> Formato </a>
-        <a class="link-header"> Identidade </a>
-        <a class="link-header"> Estilo Gráfico </a> 
-        <a class="link-header"> Moodboard </a>
-        <a class="link-header"> Posicionamento </a>
+        <a href="#proposito"> Propósito </a>
+        <a href="#formato"> Formato </a>
+        <a href="#visual"> Identidade Visual </a> 
+        <a href="#moodboard"> Moodboard </a>
+        <a href="#posicionamento"> Posicionamento </a>
+        <a href="#final"> Contato </a>
     </header>
 
     <section class="home">
-        <h1 class="primeiro"> Deborah </h1>
-        <h1 class="segundo"> Mattos </h1>
-        <p class="subtitle"> Personal Brand </p>
-        <button class="contato"> Entre em contato </button>
-
-        <img src="./UGC-Deborah/Assets/Deborah.png" alt="Deborah Mattos">
+        <div class="home-texto">
+            <h1>
+                <span class="primeiro"> Deborah </span>
+                <span class="segundo"> Mattos </span>
+             </h1>
+            <p class="subtitle"> Personal Brand </p>
+            <a class="contato" href="https://wa.me/5521967448898" target="_blank">Entre em contato</a>
+        </div>    
+        <img class="deborah" src="./Assets/Deborah.png" alt="Deborah Mattos">
     </section>
 
-    <section class="proposito">
-        <h1 class="primeiro"> Meu </h1>
-        <h1 class="segundo"> Propósito </h1>
-        <p>Ajudo marcas a se conectarem com seus clientes de forma real e próxima. Uso senso estético, narrativas que prendem atenção e uma visão estratégica de performance pra transformar produtos em experiências que as pessoas realmente sentem — não em mais um anúncio. O objetivo é sempre mostrar a verdade de quem consome, criando vídeos que geram engajamento, confiança e resultado de verdade.</p>
-        <img src="./UGC-Deborah/Assets/deborah-branco.png" alt="Deborah de branco">
-        <p>Meus valores são verdade, transparência e conexão real: nunca abro mão da verdade para me beneficiar de algo, sou 100% transparente com quem confia no meu trabalho, e busco sempre gerar conexão verdadeira. É assim que trabalho — criando conteúdo para empresas e desenvolvendo parcerias estratégicas e duradouras.</p>
+    <section id="proposito">
+        <h2>
+            <span class="segundo"> Meu </span>
+            <span class="primeiro"> Propósito </span>
+        </h2>
+        <p class="texto-esquerda">Ajudo marcas a se conectarem com seus clientes de forma real e próxima. Uso senso estético, narrativas que prendem atenção e uma visão estratégica de performance pra transformar produtos em experiências que as pessoas realmente sentem — não em mais um anúncio. O objetivo é sempre mostrar a verdade de quem consome, criando vídeos que geram engajamento, confiança e resultado de verdade.</p>
+        <img src="./Assets/deborah-branco.png" alt="Deborah de branco">
+        <p class="texto-direita">Meus valores são verdade, transparência e conexão real: nunca abro mão da verdade para me beneficiar de algo, sou 100% transparente com quem confia no meu trabalho, e busco sempre gerar conexão verdadeira. É assim que trabalho — criando conteúdo para empresas e desenvolvendo parcerias estratégicas e duradouras.</p>
     </section>
 
-    <section class="formato">
-        <h1 class="segundo"> Formato </h1>
+    <section id="formato">
+        <h2 class="primeiro"> Formato </h2>
         <p>Meu objetivo é criar um formato que foge do óbvio, me tornando uma referência.</p>
-        <img src="./UGC-Deborah/Assets/debohra-park.png" alt="Deborah no parque">
-        <div class="cinema-vendas">
-            <p>[CINEMA-VENDAS]</p>
-            <img src="./UGC-Deborah/Assets/cinema-vendas.png" alt="pessoa sendo gravada">
+        <img src="./Assets/debohra-park.png" alt="Deborah no parque">
+        <div class="card cinema-vendas">
+            <p class="etiqueta">[CINEMA-VENDAS]</p>
+            <img src="./Assets/cinema-vendas.png" alt="pessoa sendo gravada">
             <h4>01</h4>
-            <p>Conteúdos estilo cinema com especificações do produto.</p>
+            <p class="descricao">Conteúdos estilo cinema com especificações do produto.</p>
             <h3>1x na semana</h3>
         </div>
         
-        <div class="cinema-branding">
-            <p>[CINEMA-BRANDING]</p>
-            <img src="./UGC-Deborah/Assets/cinema-branding.png" alt="foto de produto">
+        <div class="card cinema-branding">
+            <p class="etiqueta">[CINEMA-BRANDING]</p>
+            <img src="./Assets/cinema-branding.png" alt="foto de produto">
             <h4>02</h4>
-            <p>Cinema em função de gerar branding para uma empresa.</p>
+            <p class="descricao">Cinema em função de gerar branding para uma empresa.</p>
             <h3>1x na semana</h3>
         </div>
     </section>
 
-    <section class="big-ideias">
-            <div class="cinema-vendas"> 
-                <p>[CINEMA-VENDAS]</p>
-                <img src="./UGC-Deborah/Assets/breathe.png" alt="usando o produto">
-                <h4>01</h4>
-                <p>Conteúdos estilo cinema com especificações do produto.</p>
-                <h3>1x na semana</h3>
-            </div>
+    <section id="big-ideias">
+        <div class="card cinema-vendas"> 
+            <p class="etiqueta">[CINEMA-VENDAS]</p>
+            <img src="./Assets/breathe.png" alt="usando o produto">
+            <h4>01</h4>
+            <p class="descricao">Conteúdos estilo cinema com especificações do produto.</p>
+            <h3>1x na semana</h3>
+        </div>
             
-            <div class="cinema-branding">
-                <p>[CINEMA-BRANDING]</p>
-                <img src="./UGC-Deborah/Assets/video-ronco.png" alt="video viralizado">
-                <h4>02</h4>
-                <p>Cinema em função de gerar branding para uma empresa.</p>
-                <h3>1x na semana</h3>
-            </div>
+        <div class="card cinema-branding">
+            <p class="etiqueta">[CINEMA-BRANDING]</p>
+            <img src="./Assets/video-ronco.png" alt="video viralizado">
+            <h4>02</h4>
+                <p class="descricao">Cinema em função de gerar branding para uma empresa.</p>
+            <h3>1x na semana</h3>
+        </div>
 
-            <div class="big-ideias">
-                <h1 class="primeiro">Big</h1>
-                <h1 class="segundo">Ideias</h1>
-            </div>
+        <div class="big-ideias">
+            <h2>
+                <span class="primeiro">Big</span>
+                <span class="segundo">Ideias</span>
+            </h2>
+        </div>
             
-            <p> Introduzir produtos no meu dia a dia </p>
+        <div class="texto-descricao">
+            <p>Introduzir produtos no meu dia a dia </p>
             <p>Criar conteúdos que contam histórias e geram conexão real.</p>
-            <p> Exemplo: usar um fone de ouvido bloqueador de ruído externo enquanto meus filhos gritam pela casa.</p>
+            <p> Exemplo: usar um fone de ouvido bloqueador de ruído externo para conseguir assistir uma aula online, enquanto meus filhos brincam no mesmo espaço.</p>
+        </div>    
     </section>
 
-    <section class="identidade-visual">
-        <h1 class="primeiro"> Identidade </h1>
-        <h1 class="segundo"> Visual </h1>
-        <img src="./UGC-Deborah/Assets/visual.png" alt="circulo de cores">
-        <img src="./UGC-Deborah/Assets/Flora-deborah.png" alt="Deborah e a Filha">
+    <section id="visual">
+        <div class="identidade-visual">   
+            <h2>
+                <span class="primeiro"> Identidade </span>
+                <span class="segundo"> Visual </span>
+            </h2>
+        </div>
+        <img class="cores" src="./Assets/visual.png" alt="circulo de cores">
+        <img class="foto-filha" src="./Assets/Flora-deborah.png" alt="Deborah e a Filha">
+       
     </section>
-    
+
+    <section id="graficos">
+        <div class="graficos-canvas">
+            <div class="estilos-graficos">   
+                <h2>
+                    <span class="segundo"> Estilos </span>
+                    <span class="primeiro"> Gráficos </span>
+                </h2>
+            </div>
+            <img class="emojis" src="./Assets/emojis.png" alt="icones de emojis">
+            <img class="tomdevoz" src="./Assets/tomdevoz.png" alt="explica como será o tom de voz">
+            <img class="tipografia" src="./Assets/tipografia.png" alt="estilos de fontes">
+            <img class="tom-de-voz" src="./Assets/graficos.png" alt="elementos gráficos decorativos">
+        </div>
+    </section>
+
+    <section id="posicionamento">
+        <img class="posicionamento" src="./Assets/posicionamento.png" alt="posicionamento">
+        <div class="posicionamento-conteudo">   
+            <div class="posicionamento-titulo">
+            <h2 class="primeiro"> Posicionamento</h2>
+            </div>
+       
+            <p class="subtitulo">Quem sou eu?</p>
+            <p class="texto"> Sou a Deborah, criadora de conteúdo UGC que transforma o dia a dia real — o caos bom da casa, dos filhos, da rotina — em conteúdo estratégico para marcas. Não crio cenário, crio verdade: cada vídeo nasce de um uso real do produto, e é isso que conecta e vende. </p>
+            <p class="subtitulo">Como quero ser vista?</p>
+            <p class="texto"> Como a criadora que uma marca escolhe quando quer resultado de verdade, não só estética. Alguém organizada, estratégica e de confiança — que entrega no prazo e entende tanto de performance quanto de estética.</p>
+            <p class="subtitulo">Nicho:</p>
+            <p class="texto"> Maternidade, bem-estar e crochê - o universo que eu vivo de verdade, todos os dias.</p>
+         </div>
+        
+    </section>
+
+    <section id="moodboard">
+        <h2>
+            <span class="primeiro"> Moodboard </span>
+        </h2>
+        <h4> [ESTILO CONTEMPORÂNEO]</h4>
+        <img class="moodboard" src="./Assets/moodboard1.png" alt="imagens de ambientes e ações">
+        <img class="moodboard" src="./Assets/moodboard2.png" alt="imagens de ambientes, ações e pessoas">
+    </section>
+
+    <section id="final">
+            <a href="https://wa.me/5521967448898" target="_blank"><img class="whatsapp" src="./Assets/whats.png" alt="logo do whatsapp"></a>
+            <a href="https://www.instagram.com/deborah.park/" target="_blank"><img class="instagram" src="./Assets/insta.png" alt="logo do instagram"></a>
+            <img class="final" src="./Assets/final.png" alt="Deborah, filhos e Deborah">
+        </section>
     
 </body>
+<script src="./script.js"></script>
 </html>
